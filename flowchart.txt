@@ -1,0 +1,38 @@
+// app flowchart in text
+
+- GEMS 
+    - Colorize, terminal-table, blinking text
+        - USAGE:
+            - Colorize for right & wrong answers
+            - Blinking text for user input - maybe
+            - Terminal table for scoring output
+
+- BEGINNING OF QUIZ
+    - Welcome statement
+    - Type something to start (select option)
+    - Get user input
+    - Check user input against answer in hash
+
+
+- DURING QUIZ       
+    - Keep track of score (in variable)
+    - User loses points if incorrect etc (score +=, score -=)
+
+- END OF QUIZ
+    - Calculate score
+    - Output table with answer, score & total
+    - Sends user a thankyou & exit message
+
+// after total output exit the game (system clear)
+
+    ----------------------
+        answer | score
+    ----------------------
+        answer | 10
+        answer | 10
+        answer | 20
+    ----------------------
+               | total 
+    ----------------------           
+               | 30
+    
