@@ -1,10 +1,7 @@
-# Quiz App
 
-
-puts "Welcome to the quiz"
-
-# answers = [
-
-# ]
-
-
+module Quiz
+    module_function
+    def welcome 
+        puts "Welcome to the quiz"
+    end
+end
